@@ -22,7 +22,7 @@ const scene = new THREE.Scene()
  */
 const textureLoader = new THREE.TextureLoader()
 
-const matcapTextute = textureLoader.load('/textures/matcaps/7.png')
+const matcapTextute = textureLoader.load('/textures/matcaps/3.png')
 matcapTextute.colorSpace = THREE.SRGBColorSpace
 
 const material = new THREE.MeshMatcapMaterial({ matcap: matcapTextute })
